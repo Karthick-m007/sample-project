@@ -18,11 +18,14 @@
     background-color: rgb(255, 254, 252);
 }
 
+
+
 .nav-content{
     padding: 10px 20px;
 }
 .nav-content ul{
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-content li{
@@ -37,216 +40,224 @@
     color: rgb(0, 0, 0);
 }
 
+
 /* <!-- section-2 -->
  */
 
  .container-1{
-    background-image: url("./images/20200605-WEB-Headphone-Buying-Guide-Blog-Thumbnail.webp");
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
- }
+  background-image: url("./images/20200605-WEB-Headphone-Buying-Guide-Blog-Thumbnail.webp");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 
- 
 
- .text {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.5;
- }
 
- .text h1{
-    color: white;
-    font-size: 55px;
-    margin-bottom: 13px;
- }
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
 
- .text p{
-    color: white;
-    font-family: monospace;
-    font-size: 42px;
- }
+.text h1{
+  color: white;
+  font-size: 55px;
+  margin-bottom: 13px;
+}
 
- .text a{
-    margin: 25px;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 2px white solid;
-    color: rgb(248, 252, 252);
-    text-decoration: none;
-    font-size: 18px;
- }
+.text p{
+  color: white;
+  font-family: monospace;
+  font-size: 42px;
+}
 
+.text a{
+  margin: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px white solid;
+  color: rgb(248, 252, 252);
+  text-decoration: none;
+  font-size: 18px;
+}
 
  /* section-3 */
  
  .section-3{
-   margin-top: 100px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   line-height: 1.6;
- }
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
 
- .section-3 h5{
-   font-size: 25px;
-   font-weight: 300;
-   font-family: "Roboto Mono", serif; 
+.section-3 h5{
+  font-size: 25px;
+  font-weight: 300;
+  font-family: "Roboto Mono", serif; 
 
- }
+}
 
- .section-3 h2{
-   text-decoration: underline;
-   font-size: 35px;
-   text-underline-offset: 10px;   font-weight: 500;
-   margin-bottom: 100px;
- }
+.section-3 h2{
+  text-decoration: underline;
+  font-size: 35px;
+  text-underline-offset: 10px;   font-weight: 500;
+  margin-bottom: 100px;
+}
 
-/*  <!-- section-4 -->
- */
+/* section-4 */
 
- .headphones{
-   display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-   margin-left: 10px;
-   margin-right: 10px;
- }
+/* .headphones{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 10px 70px;
+  gap: 30px;
+} */
 
- .headphone-1,.headphone-2,.headphone-3{
+.headphones{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headphone-1,.headphone-2,.headphone-3{
 /*    border: 2px blue solid;
- */   width: 260px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;   
-   padding: 25px;
- }
+*/   width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  padding: 25px;
+}
 
- .headphone-1 img,.headphone-2 img,.headphone-3 img{
-   padding: 20px 8px;
- }
+.headphone-1 img,.headphone-2 img,.headphone-3 img{
+  padding: 20px 8px;
+}
 
- .headphone-1 p,.headphone-2 p,.headphone-3 p{
-   font-size: 16px;
-   font-family: "Roboto Mono", serif; 
-   line-height: 1.5;
- }
+.headphone-1 p,.headphone-2 p,.headphone-3 p{
+  font-size: 16px;
+  font-family: "Roboto Mono", serif; 
+  line-height: 1.5;
+}
 
- .headphone-1 h4,.headphone-2 h4,.headphone-3 h4{
-   display: block;
-   padding-top: 10px;
-   width: 260px;
-   font-size: 18px;
- }
+.headphone-1 h4,.headphone-2 h4,.headphone-3 h4{
+  display: block;
+  padding-top: 10px;
+  width: 215px;
+  font-size: 18px;
+}
 
- .headphone-4{
-   /*    border: 2px blue solid;
-    */   width: 260px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;   
-      padding: 25px;
-    }
+.headphone-4{
+  /*    border: 2px blue solid;
+   */   width: 260px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;   
+     padding: 25px;
+   }
 
-    .headphone-4 img{
-      padding: 20px 8px;
-    }
-   
-    .headphone-4 p{
-      font-size: 16px;
-      width: 260px;
-      font-family: "Roboto Mono", serif; 
-    }
-   
-    .headphone-4 h4{
-      display: block;
-      padding-top: 10px;
-      width: 260px;
-      font-size: 18px;
-    }
+   .headphone-4 img{
+     padding: 20px 8px;
+   }
+  
+   .headphone-4 p{
+     font-size: 16px;
+     width: 260px;
+     font-family: "Roboto Mono", serif; 
+   }
+  
+   .headphone-4 h4{
+     display: block;
+     padding-top: 10px;
+     width: 260px;
+     font-size: 18px;
+   }
 
-    .iamge1{
-      position: relative;
-    }
-    .image1hover{
-      position: absolute;
-      visibility: hidden;
-    }
+   .iamge1{
+     position: relative;
+   }
+   .image1hover{
+     position: absolute;
+     visibility: hidden;
+   }
 
-    .headphone-1:hover .iamge1{
-      visibility: hidden;
-    }
+   .headphone-1:hover .iamge1{
+     visibility: hidden;
+   }
 
-    .headphone-1:hover .image1hover{
-      visibility: visible;
-    }
-
-
-    .image2,.image3,.image4{
-      position: relative;
-    }
-    .image2hover,.image3hover,.image4hover{
-      position: absolute;
-      visibility: hidden;
-    }
-
-    .headphone-2:hover .image2{
-      visibility: hidden;
-    }
-
-    .headphone-2:hover .image2hover{
-      visibility: visible;
-    }
-
-    /* image-3 */
-
-    .headphone-3:hover .image3{
-      visibility: hidden;
-    }
-
-    .headphone-3:hover .image3hover{
-      visibility: visible;
-    }
-
-    /* image-4 */
-
-    .headphone-4:hover .image4{
-      visibility: hidden;
-    }
-
-    .headphone-4:hover .image4hover{
-      visibility: visible;
-    }
+   .headphone-1:hover .image1hover{
+     visibility: visible;
+   }
 
 
-/*     <!-- SECTION-5 -->
- */
-    .welcome{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 30px;
-    }
+   .image2,.image3,.image4{
+     position: relative;
+   }
+   .image2hover,.image3hover,.image4hover{
+     position: absolute;
+     visibility: hidden;
+   }
 
-    .welcome h2{
-      padding: 15px;
-      font-size: 46px;
-    }
+   .headphone-2:hover .image2{
+     visibility: hidden;
+   }
 
-    .welcome p{
-      width: 50%;
-      line-height: 2;
-      text-align: center;
-      margin-bottom: 26px;
-      font-size: 16px;
-    }
+   .headphone-2:hover .image2hover{
+     visibility: visible;
+   }
 
+   /* image-3 */
+
+   .headphone-3:hover .image3{
+     visibility: hidden;
+   }
+
+   .headphone-3:hover .image3hover{
+     visibility: visible;
+   }
+
+   /* image-4 */
+
+   .headphone-4:hover .image4{
+     visibility: hidden;
+   }
+
+   .headphone-4:hover .image4hover{
+     visibility: visible;
+   }
+
+
+      /* <!-- SECTION-5 --> */
+      
+         .welcome{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           padding: 30px;
+         }
+     
+         .welcome h2{
+           padding: 15px;
+           font-size: 46px;
+         }
+     
+         .welcome p{
+           width: 50%;
+           line-height: 2;
+           text-align: center;
+           margin-bottom: 26px;
+           font-size: 16px;
+         }
+
+         
     /* section-6 */
 
     .section-6{
@@ -314,10 +325,9 @@
       box-shadow: 2px 2px 5px rgb(229, 220, 220),-2px -2px 5px rgb(229,220,220);
       position: relative;
     }
+      
 
-    
-   
-    /* footer */
+          /* footer */
 
     footer{
       display: flex;
@@ -418,6 +428,17 @@
       border-radius: 5px;
     }
 
+   
+.icons{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+} 
+  
+
+
     @keyframes image21 {
       from{
         bottom: 5px;
@@ -426,72 +447,310 @@
     }
 
 
-     /*  @media screen and (max-width:380px){
+@media  screen and (max-width:576px) {
+  .logo img{
+    height: 50px;
+    width: 100px;
+  }
 
-      .navbar{
-        display: flex;
-        flex-direction: column;
-      }
-      .nav-content{
-        display: flex;
-        flex-direction: column;
-      }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
 
-      .text h1{
-        font-size: 30px;
-      }
+  .nav-content ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-      .text p{
-        font-size: 24px;
-      }
-      
-      .container-1{
-        background-image: url("./images/20200605-WEB-Headphone-Buying-Guide-Blog-Thumbnail.webp");
-        width: 200%;
-        height: 100vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: contain;
-        margin-bottom: -100px;
-     }
+  .nav-content li{
+    margin-right: 15px;
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+}
 
-     .section-3{
-      margin-top: 50px;
-      width: 200%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      line-height: 1.6;
-    }
-   
-    .section-3 h5{
-      font-size: 28px;
-      font-weight: 300;
-      font-family: "Roboto Mono", serif; 
+.container-1{
+  background-image: url("./images/20200605-WEB-Headphone-Buying-Guide-Blog-Thumbnail.webp");
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.text h1{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+.text p{
+  color: white;
+  font-family: monospace;
+  font-size: 26px;
+}
+
+.text a{
+  margin: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px white solid;
+  color: rgb(248, 252, 252);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* section-3 */
+
+.section-3{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.section-3 h5{
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto Mono", serif; 
+
+}
+
+.section-3 h2{
+  text-decoration: underline;
+  font-size: 22px;
+  text-underline-offset: 10px;   font-weight: 500;
+  margin-bottom: 100px;
+}
+
+/* section-4 */
+
+.headphones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome h2{
+  padding: 15px;
+  font-size: 22px;
+}
+
+.welcome p{
+  width: 90%;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+
+/* section-6 */
+
+.section-6{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 50px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.image11{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(229, 220, 220),-2px -2px 5px rgb(229,220,220);
+  position: relative;
+}
+
+
+
+
+.image11:hover,.image12:hover,.image13:hover{      
+  cursor: pointer;
+  animation: image21 10s infinite ease-out;
+
+}
+
+
+.image11 img{
+  padding: 10px;
+}
+
+.image12 img ,.image13 img{
+  padding: 45px;
+}
+
+.image11 p,.image12 p,.image13 p{
+  padding: 20px;
+}
+
+.image12{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(229, 220, 220),-2px -2px 5px rgb(229,220,220);
+  position: relative;
+
+}
+
+.image13{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(229, 220, 220),-2px -2px 5px rgb(229,220,220);
+  position: relative;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 25px;
+  background-color: #17172c;
+  border-radius: 2px;
+}
+
+.helpful{
+  padding: 10px;
+  margin: 8px;
+}
+
+.helpful h2{
+  padding-bottom: 12px;
+  color: white;
+  font-size: 16;
+}
+
+.helpful ul{
+  padding-left: 5px;
+}
+
+.helpful ul li{
+  color: white;
+
+  list-style: none;
+  margin-left: -10px;
+  padding: 9px;
+  font-size: 14px;
+}
+
+
+.labs{
+  padding: 10px;
+  margin: 8px;
+}
+
+.labs h2{
+  padding-bottom: 12px;
+  color: white;
+
+}
+
+.labs ul{
+  padding-left: 5px;
+}
+
+.labs ul li{
+  color: white;
+  list-style: none;
+  margin-left: -10px;
+  padding: 9px;
+  font-size: 14px;
+}
+
+.partner{
+  padding: 10px;
+  margin: 8px;
+}
+
+.partner h2{
+  padding-bottom: 12px;
+  color: white;
+}
+
+.partner ul{
+  padding-left: 5px;
+}
+
+.partner ul li{
+  list-style: none;
+  color: white;
+  padding: 9px;
+  font-size: 14px;
+  margin-left: -10px;
+}
+
+.sign-up{
+  width:500px;
+  margin: 10px;
+}
+
+.sign-up h2{
+  padding: 10px;
+  color: white;
+}
+
+.sign-up p{
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.sign-up input{
+  padding: 10px;
+  margin: 12px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+
+
+
+
+
+  
+}
+
+
+
+
+
      
-   
-    }
-   
-    .section-3 h2{
-      text-align: center;
-      text-decoration: underline;
-      font-size: 26px;
-      text-underline-offset: 10px;  
-      font-weight: 500;
-    }
-
-    .headphones{
-      display: flex;
-      width: 200%;
-      justify-content: center;
-      align-items: center;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-    }  */
-
 
  
 
