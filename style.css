@@ -250,10 +250,11 @@
          }
      
          .welcome p{
-           width: 50%;
+           width: 80%;
            line-height: 2;
            text-align: center;
-           margin-bottom: 26px;
+           margin-bottom: 20px;
+           margin-top: 20PX;
            font-size: 16px;
          }
 
@@ -435,7 +436,7 @@
   justify-content: center;
   align-items: center;
   margin: 10px auto;
-} 
+}  
   
 
 
@@ -550,9 +551,11 @@
   align-items: center;
 }
 
+/* section-5 */
+
 .welcome h2{
   padding: 15px;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .welcome p{
@@ -560,7 +563,7 @@
   line-height: 2;
   text-align: center;
   margin-bottom: 26px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* section-6 */
@@ -606,6 +609,8 @@
 
 .image11 p,.image12 p,.image13 p{
   padding: 20px;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .image12{
@@ -729,7 +734,7 @@ footer{
 .sign-up input{
   padding: 10px;
   margin: 12px;
-  width: 300px;
+  width: 250px;
   border-radius: 5px;
 }
 
@@ -739,14 +744,7 @@ footer{
   justify-content: center;
   align-items: center;
   margin: 10px auto;
-}
-
-
-
-
-
-
-  
+}  
 }
 
 
